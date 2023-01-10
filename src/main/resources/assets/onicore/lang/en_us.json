@@ -1,6 +1,12 @@
 {
+  "item.onicore.oni_tab_logo": "Oni Tab Logo",
 
   "item.onicore.oni_ingot": "Oni Ingot",
-  "item.onicore.oni_nugget": "Oni Nugget"
+  "item.onicore.oni_nugget": "Oni Scrap",
+
+  "block.onicore.oni_block": "Oni Block",
+  "block.onicore.oni_ore": "Oni Ore",
+
+  "itemGroup.oni_tab": "OniCore"
 
 }

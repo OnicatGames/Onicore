@@ -1,6 +1,7 @@
 package com.onicatgames.onicore.block;
 
 import com.onicatgames.onicore.OniCore;
+import com.onicatgames.onicore.item.OniCreativeTab;
 import com.onicatgames.onicore.item.Oniitems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -41,10 +42,15 @@ public class Oniblocks {
      *╚═════╝░╚══════╝░╚════╝░░╚════╝░╚═╝░░╚═╝╚═════╝░
      */
 
-    /** 𝑶𝑵𝑰_𝑩𝑳𝑶𝑪𝑲- a test block */
+    /** 𝑶𝑵𝑰_𝑩𝑳𝑶𝑪𝑲 - a test gem block */
     public static final RegistryObject<Block> ONI_BLOCK = registerBlock("oni_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(5f).requiresCorrectToolForDrops()/*| .add properties |*/), CreativeModeTab.TAB_MATERIALS);
+                    .strength(5f).requiresCorrectToolForDrops()/*| .add properties |*/), OniCreativeTab.ONI_TAB);
+
+    /** 𝑶𝑵𝑰_𝑶𝑹𝑬 - a test ore block */
+    public static final RegistryObject<Block> ONI_ORE= registerBlock("oni_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f).requiresCorrectToolForDrops()/*| .add properties |*/), OniCreativeTab.ONI_TAB);
 
 
 

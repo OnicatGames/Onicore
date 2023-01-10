@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model":  "onicat:block/oni_block"}
+    "": { "model":  "onicore:block/oni_block"}
   }
 }
