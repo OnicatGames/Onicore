@@ -33,14 +33,15 @@ public class Oniitems {
      *╚═╝░░░╚═╝░░░╚══════╝╚═╝░░░░░╚═╝╚═════╝░
      */
 
-    /** 𝗢𝗡𝗜_𝗧𝗔𝗕_𝗟𝗢𝗚𝗢 - item Logo for OniCore Creative Tab Menu */
+    /** 𝗢𝗡𝗜_𝗧𝗔𝗕_𝗟𝗢𝗚𝗢  */
+    /** This is the Item to represent the @OniCreativeTab Menu */
     public static final RegistryObject<Item> ONI_TAB_LOGO = ITEMS.register( "oni_tab_logo",
             () -> new Item(new Item.Properties().tab(null)));
 
 
-    /** 𝑶𝑵𝑰_𝑰𝑵𝑮𝑶𝑻 - a test ingot item */
+    /** 𝑶𝑵𝑰_𝑰𝑵𝑮𝑶𝑻 - Oni ingot item representing the onicat from the OniCore core mod */
     public static final RegistryObject<Item> ONI_INGOT = ITEMS.register( "oni_ingot",
-            () -> new Item(new Item.Properties().tab(OniCreativeTab.ONI_TAB)));
+            () -> new Item(new Item.Properties().fireResistant().tab(OniCreativeTab.ONI_TAB)));
 
     /** 𝑶𝑵𝑰_𝑵𝑼𝑮𝑮𝑬𝑻 - a test nugget item */
     public static final RegistryObject<Item> ONI_NUGGET = ITEMS.register( "oni_nugget",
